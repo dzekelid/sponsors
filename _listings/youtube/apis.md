@@ -26,7 +26,7 @@ apis:
   tags: Sponsors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/sponsors/master/_listings/youtube/sponsors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/sponsors/master/_listings/youtube/sponsors-parameters.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
