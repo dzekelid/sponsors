@@ -17,8 +17,8 @@ tags:
 - Getting Started
 - Federal Government
 - Broadcasting
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/npr/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -30,7 +30,7 @@ apis:
   tags: Sponsors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/npr/sponsorship-v2-ads-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/npr/sponsorship-v2-ads-get.md
 x-common:
 - type: x-base
   url: http://api.npr.org/
