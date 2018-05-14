@@ -27,17 +27,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/youtube/sponsors-parameters.md
-- name: Youtube Get Sponsors
-  description: Lists sponsors for a channel.
+- name: Youtube Parameters Sponsors
+  description: Parameters sponsors
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/youtube-logo.png
   humanURL: https://www.youtube.com/
   baseURL: https://www.googleapis.com//youtube/v1
   tags: Sponsors
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/youtube/sponsors-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/youtube/sponsors-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/youtube/sponsors-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/sponsors/master/_listings/youtube/sponsors-parameters-postman.md
 x-common:
 - type: x-articles
   url: https://developers.google.com/youtube/articles/
