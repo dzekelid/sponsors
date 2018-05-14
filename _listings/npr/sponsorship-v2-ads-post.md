@@ -1,13 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: NPR One API Reference
-  description: NPR One is a smart application that brings the best of NPR and Member
-    Station programming, newscasts, podcasts, and stories together to create a new
-    experience for listening. It provides an editor-curated and localized mobile listening
-    experience based on the content the listener chooses, likes, shares, and enjoys.
-    The API provides all of the content and customization in a simple, structured
-    way that is easy for applicationdevelopers to implement.
+  title: NPR Record tracking data for DAAST sponsorship units
+  description: |-
+    **Not** for use by NPR One clients (for whom sponsorship is already integrated into the Listening Service), this endpoint is designed to be used by our other client applications to submit tracking information for sponsorship units obtained from the `GET /sponsorship/v2/ads` endpoint.
+
+    The tracking information should be submitted in the body of the request in the form of a JSON object following the Collection.Doc+JSON specification.
   termsOfService: http://dev.npr.org/develop/terms-of-use
   contact:
     name: NPR One Enterprise Team
